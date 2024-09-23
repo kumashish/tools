@@ -4,3 +4,8 @@ npm - nodejs/javascript world
 cargo - Rust
 pip - python
 conan & CMake - C++
+
+CMake is a cross-platform build script generator:
+1. Configuration: CMake reads all the CMakeLists.txt files and creates an intermediate structure that determines the next steps (such as listing source files, gathering libraries to link, etc.).
+2. Generation: Based on the intermediate output from the configuration stage, CMake generates platform-specific build files (such as makefiles on Unix, etc.).
+3. Build: The generated build artifacts are used with platform-specific tools, such as make or ninja, to create the executables or library files.
